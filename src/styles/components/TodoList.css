@@ -1,0 +1,24 @@
+.title {
+    color: #59afff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    min-height: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(51, 51, 51);
+    word-break: break-all;
+    cursor: pointer;
+}
+
+.container:hover {
+    background-color: rgb(180, 53, 53);
+}
